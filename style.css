@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+body {
+    background: #eeeeee;
+    padding: 0 10%;
+    font-family: lato;
+}
+
+img {
+    height: 75px;
+}
+
+nav {
+    background: #1b3340;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #4886a8;
+}
+
+header {
+    background: #9acd32;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+header h1 {
+    font-weight: 100;
+    color: white;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.main-top {
+    display: flex;
+    gap: 20px;
+    height: 250px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+}
+
+.box h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #2f2f2f;
+}
+
+.box p {
+    font-size: 20px;
+    color: #2f2f2f;
+}
+
+.main-bottom {
+    margin: 20px 0;
+    display: flex;
+    height: 380px;
+}
+
+.left {
+    background: white;
+    width: 70%;
+    padding: 20px;
+}
+
+.left h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #2f2f2f;
+}
+
+.left h3 {
+    font-size: 25px;
+    color: #2f2f2f;
+}
+
+.left p {
+    font-size: 20px;
+    color: #2f2f2f;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 30%;
+    padding-right: 20px;
+}
+
+.right h3 {
+    font-size: 25px;
+    color: #2f2f2f;
+}
+
+.right a {
+    background: #dddddd;
+    color: #a09ea1;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.right a:hover {
+    background: #bdbdbd;
+    color: white;
+}
